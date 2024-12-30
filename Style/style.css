@@ -1,0 +1,14 @@
+
+
+* {
+    height: 100%;
+    width: 100%;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    font-family: sans-serif;
+}
+
