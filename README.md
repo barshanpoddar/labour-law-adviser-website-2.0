@@ -1,2 +1,5 @@
 # labour-law-adviser-website-2.0
-With this website i want to start a project for open-sources  contribution/contributors. With this, I want to give an web-site as a gift to Rishabh Jain and Mandeep Gill (Founder of LLA - Labour Law Advisor). Bqz, I often watch LLA's video on Youtube and I learn parsonal finance. When i come to visit LLA's website i figer out some problem, so i want to solve this problem. But with this Repositry i don't want to earn money or any other facility. It also applyed for all contributors...but any of those contributors can add this project on their Portfolio.
+With this website, I want to start a project for open-source  contributions/contributors. With this, I want to give a website as a gift to Rishabh Jain and Mandeep Gill (Founder of LLA - Labour Law Advisor). Bqz, I often watch LLA's videos on YouTube and learn personal finance. When I came to visit LLA's website I figured out some problems, so I want to solve this problem. But with this Repository, I don't want to earn money or any other facility. It also applies to all contributors, but any contributors can add this project to their Portfolio.
+
+contributors:-
+1. Barshan Poddar
