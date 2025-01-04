@@ -18,16 +18,16 @@ body, html {
     width: 100%;
     /* background-color: red; */
     font-family: sans-serif;
+    scrollbar-width: thin;
 }
 
 nav {
     display: flex;
     align-items: center;
     color: white;
-    /* overflow: hidden; */
+    overflow: hidden;
     background-color: var(--main-color);
     height: 5rem;
-    text-decoration: underline;
     justify-content: space-between;
 }
 
@@ -39,8 +39,13 @@ nav #options {
     justify-content: center;
 }
 
-nav a {
+nav .opt {
     color: white;
+    text-decoration: none;
+}
+
+nav .opt:hover {
+    text-shadow: 0 0 8px white, 0 0 10px rgba(255, 255, 255, 0.719);
 }
 
 nav img {
@@ -72,7 +77,7 @@ nav img {
 
 #main_txt .sub {
     font-size: 1.3rem;
-    margin: 5px 0 30px 0;
+    margin: 5px 0 30px;
 }
 
 #main_txt .btn1 {
@@ -89,6 +94,7 @@ nav img {
 #main_txt .btn1:hover {
     background-color: var(--cont-color);
     color: white;
+    box-shadow: 0 0 8px #1e3a4c8a, 0 0 18px #1e3a4c62;
 }
 
 #main_txt .fst, .sce {
@@ -100,7 +106,7 @@ nav img {
     height: 35rem;
 }
 
-/*-------------------------------------------------YOUTUBE LIVE SUB&VIEW count---------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------YOUTUBE stat count---------------------------------------------------------------------------------------------*/
 
 #countBack {
     background-color: var(--cont-color);
@@ -128,4 +134,14 @@ nav img {
     font-weight: bold;
     font-size: 18px;
     overflow: hidden;
+}
+/*------------------------------------slider--------------------------------------------------*/
+#center 
+
+
+
+
+
+#space {
+    height: 50vh;
 }
