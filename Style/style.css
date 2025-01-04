@@ -91,6 +91,11 @@ nav img {
     color: white;
 }
 
+#main_txt .fst, .sce {
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
 #hero_img .img_hero {
     height: 35rem;
 }
@@ -103,13 +108,24 @@ nav img {
     display: flex;
     justify-content: center;
     gap: 3vw;
-    padding: 3vh;
-    max-height: 3cm;
+    max-height: 3.5cm;
+    padding: 20px 0;
 }
 
 #countBack #sec1,#sec2,#sec3 {
     color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 8rem;
+}
+
+#countBack .sec_txt {
+    margin-top: 10px;
+    color: white;
     border: 2px solid white;
     padding: 15px;
     border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    overflow: hidden;
 }
