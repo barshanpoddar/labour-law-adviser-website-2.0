@@ -1,8 +1,8 @@
 :root {
-    --main-color : #691919;
-    --accent-color : #e0a775;
-    --cont-color : #1e3a4c;
-    --main-back : #ffefda;
+    --main-color: #691919;
+    --accent-color: #e0a775;
+    --cont-color: #1e3a4c;
+    --main-back: #ffefda;
 }
 
 
@@ -13,12 +13,13 @@
     margin: 0px;
 }
 
-body, html {
+body,
+html {
     height: 100%;
     width: 100%;
     /* background-color: red; */
     font-family: sans-serif;
-    scrollbar-width: thin;
+    scrollbar-width: none;
 }
 
 nav {
@@ -83,7 +84,7 @@ nav img {
 #main_txt .btn1 {
     color: var(--cont-color);
     border: 2px solid #1e3a4c;
-    padding: 10px 30px ;
+    padding: 10px 30px;
     margin-top: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -97,7 +98,8 @@ nav img {
     box-shadow: 0 0 8px #1e3a4c8a, 0 0 18px #1e3a4c62;
 }
 
-#main_txt .fst, .sce {
+#main_txt .fst,
+.sce {
     color: var(--main-color);
     font-weight: bolder;
 }
@@ -106,42 +108,68 @@ nav img {
     height: 35rem;
 }
 
-/*-------------------------------------------------YOUTUBE stat count---------------------------------------------------------------------------------------------*/
-
+/*------------------------------------YOUTUBE stat count------------------------------------*/
 #countBack {
     background-color: var(--cont-color);
-    /* height: fit-content; */
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 3vw;
-    max-height: 3.5cm;
+    height: 8em;
     padding: 20px 0;
+    color: white;
 }
 
-#countBack #sec1,#sec2,#sec3 {
-    color: white;
-    font-weight: bold;
+#countBack div {
     text-align: center;
-    width: 8rem;
 }
 
-#countBack .sec_txt {
-    margin-top: 10px;
-    color: white;
-    border: 2px solid white;
-    padding: 15px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    overflow: hidden;
+h2.counter-numbers {
+    font-size: 2.5rem;
 }
 /*------------------------------------slider--------------------------------------------------*/
-#center 
+:root {
+    --slider-hight: 70px;
+    --slider-width: 150px;
+}
 
+#slider {
+    width: 100%;
+    height: var(--slider-hight);
+    background-image: url(/Asset/minimalist.avif);
+}
 
+#slider .list {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 50px;
+    width: 100%;
+    height: 100%;
+}
 
+#slider .list .item {
+    height: var(--slider-hight);
+    width: var(--slider-width);
+}
 
+#slider .list .item img {
+    width: 100%;
+}
 
-#space {
-    height: 50vh;
+/*-----------------------------------------Product Page----------------------------------------------------*/
+#productPage {
+    padding-top: 2rem;
+    /* background-color: red; */
+    width: 100%;
+    text-align: center;
+}
+
+#productPage h1 {
+    font-size: 3rem;
+}
+
+.productTxt h3 {
+    font-weight: normal;
+    font-size: 1.5rem;
 }
