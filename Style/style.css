@@ -20,6 +20,7 @@ html {
     /* background-color: red; */
     font-family: sans-serif;
     scrollbar-width: none;
+    background-color: var(--main-back);
 }
 
 nav {
@@ -162,6 +163,7 @@ h2.counter-numbers {
     padding-top: 2rem;
     /* background-color: red; */
     width: 100%;
+    height: 100%;
     text-align: center;
 }
 
@@ -172,4 +174,57 @@ h2.counter-numbers {
 .productTxt h3 {
     font-weight: normal;
     font-size: 1.5rem;
+}
+
+
+.wrapper-grid {
+    height: 100%;
+    width: 80%;
+    display: grid;
+
+}
+
+.one {
+    border: 2px solid  blue;
+    display: grid;
+    background-color: rgba(111, 0, 255, 0.589);
+}
+
+.productImg {
+    height: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid black;
+}
+
+.productImg .card1 {
+    grid-column: 1/3;
+}
+
+.card1 {
+    background-color: rgba(255, 0, 0, 0.589);
+}
+
+.card2 {
+    background-color: rgba(0, 0, 255, 0.493);
+}
+
+.card3 {
+    background-color: rgba(255, 105, 180, 0.705);
+}
+.card4 {
+    background-color: rgba(1, 73, 25, 0.705);
+}
+
+.crd1 {
+    background-color: rgba(172, 165, 138, 0.712);
+}
+.crd2 {
+    background-color: rgba(138, 221, 156, 0.712);
+}
+.crd3 {
+    background-color: rgba(255, 196, 0, 0.712);
+}
+.crd4 {
+    background-color: rgba(252, 141, 50, 0.712);
 }
